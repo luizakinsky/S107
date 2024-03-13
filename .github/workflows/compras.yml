@@ -32,7 +32,7 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: |
-      cd Aula-GitHub-Actions
-      mvn clean test site
+        cd Aula-GitHub-Actions
+        mvn clean test site
 
 
